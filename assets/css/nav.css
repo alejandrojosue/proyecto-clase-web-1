@@ -1,0 +1,28 @@
+#header {
+ display: flex;
+ width: 100%;
+ border-bottom: solid 5px #5C57B5;
+ padding: 50px 10px 10px;
+ position: relative;
+ justify-content: space-between;
+}
+
+#header .logo {
+ border-bottom: 0;
+ color: inherit;
+ font-size: 1.13em;
+}
+
+#header ul.icons {
+ display: flex;
+}
+
+#header ul.icons li{
+ margin: 0px 5px;
+ font-weight: 700;
+}
+
+#header ul.icons li:hover{
+ opacity: .8;
+ cursor: pointer;
+}
