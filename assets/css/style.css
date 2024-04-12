@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url(nav.css);
+@import url(footer.css);
 /* fuente Roboto Slab */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 
@@ -49,6 +50,41 @@ header.major> :last-child {
  display: flex;
  position: relative;
  width: calc(50% - 3em);
+}
+
+.icon {
+ text-decoration: none;
+ border-bottom: none;
+ position: relative;
+}
+
+.icon:before {
+ -moz-osx-font-smoothing: grayscale;
+ -webkit-font-smoothing: antialiased;
+ display: inline-block;
+ font-style: normal;
+ font-variant: normal;
+ text-rendering: auto;
+ line-height: 1;
+ text-transform: none !important;
+ font-family: 'Font Awesome 5 Free';
+ font-weight: 400;
+}
+
+.icon>.label {
+ display: none;
+}
+
+.icon:before {
+ line-height: inherit;
+}
+
+.icon.solid:before {
+ font-weight: 900;
+}
+
+.icon.brands:before {
+ font-family: 'Font Awesome 5 Brands';
 }
 
 .features article .icon {
@@ -152,6 +188,7 @@ a {
  height: 400px;
  margin: 10px 0px;
  border-radius: 10px;
+ object-fit: scale-down;
 }
 
 header.main {
