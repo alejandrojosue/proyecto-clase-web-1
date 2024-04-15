@@ -16,7 +16,36 @@ body {
  display: flex;
  justify-content: center;
 }
-
+/* Estilos para los labels en el formulario */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Estilos adicionales para los inputs */
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box; /* Asegura que el padding no afecte al ancho total */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Estilos para el botón de enviar */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
 #wrapper {
  display: flex;
  width: 1000px;
