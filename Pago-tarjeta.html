@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+  <title>Ofertas y mas - Pagos con tarjeta</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+  
+  <style>
+    /* Estilos específicos para el formulario de pago */
+    .payment-form {
+      margin-top: 2em;
+    }
+
+    .payment-form .field {
+      margin-bottom: 1em;
+    }
+
+    .payment-form label {
+      display: block;
+      margin-bottom: 0.5em;
+    }
+
+    .payment-form input[type="text"],
+    .payment-form input[type="email"],
+    .payment-form input[type="number"],
+    .payment-form input[type="tel"],
+    .payment-form input[type="date"],
+    .payment-form select {
+      width: 100%;
+      padding: 0.75em;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    .payment-form input[type="submit"] {
+      background-color: #5C57B5;
+      color: #fff;
+      border: none;
+      padding: 0.75em 1em;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .payment-form input[type="submit"]:hover {
+      background-color: #5C57B5;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="wrapper">
+
+    <div id="main">
+      <div class="inner">
+
+        <header id="header">
+          <a href="index.html" class="logo"><strong>Ofertas</strong> y más</a>
+          <ul class="icons">
+            <li><a href="about.html"><span>Sobre Nosotros</span></a></li>
+            <li><a href="index.html#productosyservicios"><span>Productos y Servicios</span></a></li>
+						<li><a href="brands.html"><span>Nuestras Marcas</span></a></li>
+            <li><a href="../..pagos-tarjeta.html"><span>Pagos con Tarjeta</span></a></li>
+          </ul>
+        </header>
+
+  <div id="wrapper">
+
+    <div id="main">
+      <div class="inner">
+
+        <!-- Encabezado y menú omitidos para simplificar -->
+
+        <section>
+          <header class="main">
+            <h3>Pagos con Tarjeta</h3>
+          </header>
+
+          <hr class="major" />
+
+          <!-- Formulario de pago -->
+          <form class="payment-form" method="post" action="#">
+            <div class="fields">
+              <div class="field half">
+                <label for="card_number">Número de Tarjeta</label>
+                <input type="text" name="card_number" id="card_number" required />
+              </div>
+              <div class="field half">
+                <label for="card_holder">Titular de la Tarjeta</label>
+                <input type="text" name="card_holder" id="card_holder" required />
+              </div>
+              <div class="field half">
+                <label for="expiry_date">Fecha de Vencimiento</label>
+                <input type="date" name="expiry_date" id="expiry_date" required />
+              </div>
+              <div class="field half">
+                <label for="cvv">CVV</label>
+                <input type="text" name="cvv" id="cvv" required />
+              </div>
+              <div class="field">
+                <label for="amount">Monto a Pagar</label>
+                <input type="number" name="amount" id="amount" required />
+              </div>
+            </div>
+            <ul class="actions">
+              <li><input type="submit" value="Pagar Ahora" class="primary" /></li>
+            </ul>
+          </form>
+
+        </section>
+        <footer id="footer">
+          <div class="item">
+           <span>&copy; 2024 Katerine Solano</span>
+          </div>
+          <div class="item">
+           <img src="./images/favicon.svg" width="50" height="50" alt="icon">
+          </div>
+          <div class="item">
+           <a href="collaborators.html" class="d-flex justify-content-center">
+            <span class="material-symbols-outlined">
+             groups_2
+            </span>&nbsp;
+            Colaboradores </a>&nbsp;&nbsp;&nbsp;
+           <a href="#" class="d-flex justify-content-center">
+            <span class="material-symbols-outlined">
+             arrow_upward
+            </span>
+            Subir</a>
+          </div>
+         </footer>
+
+
+        <!-- Pie de página y otros elementos omitidos para simplificar -->
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
